@@ -11,9 +11,9 @@
 
 // export default function Wabcamp() {
 
-//   const baseUrl = "https://railwayserver-nagpurcentral.onrender.com/"
+//   const baseUrl = "https://vmscrnagpur-1.onrender.com/"
 
-//   // const baseUrl = "https://railwayserver-nagpurcentral.onrender.com/"
+//   // const baseUrl = "https://vmscrnagpur-1.onrender.com/"
 // // temp
 
 //   const navigate = useNavigate();
@@ -62,7 +62,7 @@
 //   //   try {
 //   //     const response = await axios.post(
 
-//   //       `https://railwayserver-nagpurcentral.onrender.com//vendor/fetchVendorDataByQR`,
+//   //       `https://vmscrnagpur-1.onrender.com//vendor/fetchVendorDataByQR`,
 
 //   //       { qrcode: id }
 //   //     );
@@ -551,7 +551,7 @@ import { FaCircleChevronLeft } from "react-icons/fa6";
 
 export default function Wabcamp() {
 
-  const baseUrl = "https://railwayserver-nagpurcentral.onrender.com/"
+  const baseUrl = "https://vmscrnagpur-1.onrender.com/"
 
   // const baseUrl = "http://localhost:3000"
 // temp
