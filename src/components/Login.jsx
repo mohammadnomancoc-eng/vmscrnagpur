@@ -84,11 +84,9 @@ function Login() {
       if (error?.response?.data?.message) {
         toast.error(error.response.data.message);
       } else {
-        // Bypass connection error/other errors for local development/offline testing
-        toast.error(error?.message || "Server connection error");
-        localStorage.setItem("Token", JSON.stringify("mock-token-for-dev"));
-        toast.success("Bypassing login for development...");
-        navigate("/wabcamp");
+        // If no specific error message, show APK download prompt
+        // toast.error("Please download the updated APK to continue.");
+        setShowModal(true)
       }
     }
     
